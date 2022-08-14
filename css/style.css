@@ -509,7 +509,7 @@ body {
 /* Formulario */
 .formulario {
   background-image: url(../imagenes/fondo2.jpg);
- 
+
   color: white;
   text-align: center;
   position: relative;
@@ -599,7 +599,7 @@ body {
       "forn"
       "footer";
   }
-  .form{
+  .form {
     width: 75%;
   }
   .navegador {
@@ -612,7 +612,25 @@ body {
   .menu a {
     width: 90%;
   }
-  .footer{
+  .footer {
     width: 75;
   }
+}
+/* Animaciones */
+.menu {
+  background: rgb(233, 154, 6);
+  background: radial-gradient(
+    270 deg,
+    circle rgba(233, 154, 6, 1) 46%,
+    rgba(145, 34, 34, 0.5105392498796393) 76%
+  );
+  color: #000;
+  font-size: 30px;
+  border: white 2 px solid;
+  border-radius: 30px;
+  box-shadow: 3px 3px gray;
+  background: linear-gradient(red,yellow,white);
+}
+.animate__animated animate__bounce {
+  --animate-duration: 5s;
 }
