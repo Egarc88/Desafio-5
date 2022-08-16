@@ -634,3 +634,66 @@ body {
 .animate__animated animate__bounce {
   --animate-duration: 5s;
 }
+  .sidebar img:hover {
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    box-shadow: 2px 2px black;
+    top: 0;
+    left: 0;
+    transition: 5s;
+  }
+  .content2{
+    align-items: center;
+  }
+  .content2 img:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5);
+    box-shadow: 2px 2px black;
+    top: 0;
+    left: 0;
+    transition: 1s;
+
+  }
+  .tracking-in-contract {
+    -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 2em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+.content3{
+  align-items: center;
+}
+.content3 img:hover{
+  transform: rotate(0deg);
+  transform: scale(1.1);
+  box-shadow: 2px 2px black;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+ 
